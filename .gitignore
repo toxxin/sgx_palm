@@ -1,0 +1,16 @@
+*.o
+*.ko
+*.cmd
+*.order
+*.symvers
+*.mod.c
+*.mod.o
+.tmp_versions
+
+GFX_Linux_SDK
+gfx_dbg_es*
+gfx_rel_es*
+gfxsdkdemos
+targetfs
+tools
+unittest
