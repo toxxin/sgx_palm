@@ -6,22 +6,24 @@
 #By default all below variables have been initialized with equivalent AMSDK variables
 # Change them to appropriate paths as per your machine/build environment paths.
 # Set home area (ex /home/user/)
-HOME=$(SDK_INSTALL_DIR)/graphics
+HOME=/home/anton
+PRJ_PATH=/home/anton/Source/nmv
 
 # Set Toolchain path (ex /home/user/toolchain/arago-2011.09/armv7a)
-CSTOOL_DIR=$(LINUX_DEVKIT_PATH)
+CSTOOL_DIR=$(HOME)/Distrib/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabi
 
 # Set Tool chain prefix (ex arm-arago-linux-gnueabi- )
-CSTOOL_PREFIX=`basename $CROSS_COMPILE`
+CSTOOL_PREFIX=arm-linux-gnueabi-
 
 # Set kernel installation path ( ex /home/user/linux-04.00.01.13 )
-KERNEL_INSTALL_DIR=$(LINUXKERNEL_INSTALL_DIR)
+KERNEL_INSTALL_DIR=$(PRJ_PATH)/kernel_palm
 
 # Set Target filesystem path ( ex /home/user/targetfs )
-TARGETFS_INSTALL_DIR=$(DESTDIR)
+TARGETFS_INSTALL_DIR=/srv/nmv_wheezy
 
 # Set installation folder
-GRAPHICS_INSTALL_DIR=$(HOME)/Graphics_SDK_5_01_01_02
+GRAPHICS_INSTALL_DIR=$(PRJ_PATH)/Graphics_SDK
+
 ############### All the fields below are OPTIONAL ############################ 
 ############### BEST SUGGESTED TO LEAVE THE BELOW AS IS ############################ 
 
