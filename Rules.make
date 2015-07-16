@@ -22,7 +22,7 @@ KERNEL_INSTALL_DIR=$(PRJ_PATH)/kernel_palm
 TARGETFS_INSTALL_DIR=/srv/nmv_wheezy
 
 # Set installation folder
-GRAPHICS_INSTALL_DIR=$(PRJ_PATH)/Graphics_SDK
+GRAPHICS_INSTALL_DIR=$(PRJ_PATH)/sgx_palm
 
 ############### All the fields below are OPTIONAL ############################ 
 ############### BEST SUGGESTED TO LEAVE THE BELOW AS IS ############################ 
